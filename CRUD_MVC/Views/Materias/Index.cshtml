@@ -1,0 +1,42 @@
+﻿@model List<CRUD_MVC.Models.ViewModels.ListMateriasViewModel>
+@{
+    ViewBag.Title = "Listado de Materias";
+}
+
+<h2>Listado de Materias</h2>
+<div class="row col-md-12" style="text-align:right;">
+    <a href="~/Materias/Nuevo" class="btn btn-primary"><span class="glyphicon glyphicon-file"></span>&nbsp;Nuevo</a>
+    <button type="button" value="Regresar" id="btn_regresar" class="btn btn-primary" onclick="javascript: history.go(-1);" title="Regresar"><span class="glyphicon glyphicon-arrow-left"></span></button>
+</div>
+
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th width="10%">Id</th>
+            <th width="80%">Materia</th>
+            <th width="10%" colspan="2">Opciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var fila in Model)
+        {
+            <tr>
+                <td>@fila.Id</td>
+                <td>@fila.Nombre_mat</td>
+                <td style="text-align:right;"><a class="btn btn-primary" href="~/Materias/Editar/@fila.Id"><span class="glyphicon glyphicon-edit" title="Editar"></span></a></td>
+                <td style="text-align:right;"><a id="@fila.Id" class="btn btn-danger btn_elim" title="Eliminar"><span class="glyphicon glyphicon-trash" title="Editar"></span></a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Scripts.Render("~/bundles/jquery")
+<script>
+    $(".btn_elim").on("click", function () {
+        if (confirm("¿Desea eliminar el registro?")) {
+            id = this.id;
+            window.location = "/Materias/Eliminar/" + id;
+        }
+    })
+</script>

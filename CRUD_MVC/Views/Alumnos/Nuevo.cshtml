@@ -1,0 +1,67 @@
+﻿@model  CRUD_MVC.Models.ViewModels.AlumnosViewModel
+@{
+    ViewBag.Title = "Nuevo Alumno";
+}
+<fieldset>
+    <legend>Datos personales</legend>
+   @using (Html.BeginForm("Nuevo", "Alumnos", FormMethod.Post, new { id = "frm_nuevo" , name="frm_nuevo"})){
+    <div class="col-md-12">
+        @Html.LabelFor(campo => campo.Nombre)
+        @Html.TextBoxFor(campo => campo.Nombre, null, new { @class = "form-control" })
+        @Html.ValidationMessageFor(campo => campo.Nombre, null, new { @class = "invalid-feedback" })
+
+        @Html.LabelFor(campo => campo.Direccion)
+        @Html.TextBoxFor(campo => campo.Direccion, null, new { @class = "form-control" })
+        @Html.ValidationMessageFor(campo => campo.Direccion, null, new { @class = "invalid-feedback" })
+
+        @Html.LabelFor(campo => campo.Telefono)
+        @Html.TextBoxFor(campo => campo.Telefono, null, new { @class = "form-control" })
+        @Html.ValidationMessageFor(campo => campo.Telefono, null, new { @class = "invalid-feedback" })
+
+        @Html.LabelFor(campo => campo.Fecha_nac)
+        <br />@Html.EditorFor(campo => campo.Fecha_nac, null, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(campo => campo.Fecha_nac, null, new { @class = "invalid-feedback" })
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <input type="submit" value="Guardar" id="btn_guardar" class="btn btn-primary" />
+        </div>
+        
+    </div>
+    }
+</fieldset>
+
+<script>
+    $("#frm_nuevo").submit(function (e) {
+        e.preventDefault();
+        data = $('#frm_nuevo').serializeArray();
+        $.ajax({
+            url: "@Url.Action("Nuevo", "Alumnos")", // Url
+            data: data,
+            type: "post"  // Verbo HTTP
+        })
+        // Se ejecuta si todo fue bien.
+            .done(function (result) {
+                debugger;
+            if (result.success) {
+               
+                console.log(result);
+                var options = { year: "numeric", month: "numeric", day: "numeric" };
+                var fecha_nac = new Date(parseInt(result.alumno.Fecha_nac.substr(6))).toLocaleDateString(options);
+                document.getElementById("tbl_body").innerHTML += "<tr id='fila_" + result.auto_ID + "'><td> " + result.auto_ID + " </td><td> " + result.alumno.Nombre + "</td > <td>" + result.alumno.Telefono + "</td> <td>" + fecha_nac + "</td> <td>" + result.alumno.Direccion + "</td> <td style='text-align:right;'><a id='" + result.auto_ID + "' class='btn btn-primary btn_edit' href='#'><span class='glyphicon glyphicon-edit' title='Editar'></span></a></td> <td style='text-align:right;'><a id='" + result.auto_ID + "' class='btn btn-danger btn_elim' title='Eliminar'><span class='glyphicon glyphicon-trash' title='Editar'></span></a></td></tr>";
+                $("#ventana_modal").modal("hide");
+            }
+            else {
+                console.log(result);
+                alert('No se guardó el registro ');
+            }
+        })
+        // Se ejecuta si se produjo un error.
+        .fail(function (xhr, status, error) {
+            console.log(error);
+        })
+        // Hacer algo siempre, haya sido exitosa o no.
+        .always(function (x) {
+            console.log(x);
+        });
+    });
+</script>

@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CRUD_MVC",
+    "\\CRUD_MVC\\bin",
+    "\\CRUD_MVC\\Controllers",
+    "\\packages",
+    "\\packages\\EntityFramework.6.2.0",
+    "\\packages\\EntityFramework.6.2.0\\lib",
+    "\\packages\\EntityFramework.6.2.0\\lib\\net40",
+    "\\packages\\EntityFramework.6.2.0\\lib\\net45"
+  ],
+  "PreviewInSolutionExplorer": false
+}

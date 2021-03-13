@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="jmendozaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Alumnos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Telefono" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fecha_nac" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Materias">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_mat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Notas_Alumnos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Alumno" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Materia" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Nota1" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Nota2" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Nota3" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Promedio" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="jmendozaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Alumnos" EntityType="Self.Alumnos" />
+    <EntitySet Name="Materias" EntityType="Self.Materias" />
+    <EntitySet Name="Notas_Alumnos" EntityType="Self.Notas_Alumnos" />
+    <EntitySet Name="C__MigrationHistory" EntityType="jmendozaModel.C__MigrationHistory" />
+  </EntityContainer>
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="ContextKey" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Model" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="ProductVersion" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

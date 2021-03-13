@@ -1,0 +1,27 @@
+﻿
+@model CRUD_MVC.Models.ViewModels.MateriasViewModels
+@{
+    ViewBag.Title = "Nuevo";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("Nuevo","Materias", FormMethod.Post))
+{
+<div class="row">
+    <div class="col-md-12">
+        <!-- c = campo -->
+        <!--
+        @Html.LabelFor(c => c.Id)
+        @Html.TextBoxFor(c => c.Id, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Id, null, new { @class = "invalid-feedback" })
+
+        -->
+        @Html.LabelFor(c => c.Nombre_mat)
+        @Html.TextBoxFor(c => c.Nombre_mat, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Nombre_mat ,null, new {@class = "invalid-feedback" })        
+        <br /><input type="submit" value="Guardar" id="btn_guardar" class="btn btn-default"/>
+    </div>
+</div>
+}
+

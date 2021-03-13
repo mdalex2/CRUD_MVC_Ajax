@@ -1,0 +1,120 @@
+﻿@model List<CRUD_MVC.Models.ViewModels.ListAlumnosViewModel>
+@{
+    ViewBag.Title = "Listado de Alumnos";
+}
+
+<h2>Listado de Alumnos</h2>
+<div class="row col-md-12" style="text-align:right;">
+    <a id="btn_nuevo" href="#" class="btn btn-primary"><span class="glyphicon glyphicon-file"></span>&nbsp;Nuevo</a>
+    <button type="button" value="Regresar" id="btn_regresar" class="btn btn-primary" onclick="javascript: history.go(-1);" title="Regresar"><span class="glyphicon glyphicon-arrow-left"></span></button>
+</div>
+
+<table id="tbl_alumnos" class="table table-responsive">
+    <thead>
+        <tr>
+            <th width="10%">Id</th>
+            <th width="20%">Alumno</th>
+            <th width="10%">Teléfono</th>
+            <th width="10%">Fecha Nac.</th>
+            <th width="40%">Dirección</th>
+            <th width="10%" colspan="2">Opciones</th>
+        </tr>
+    </thead>
+
+    <tbody id="tbl_body">
+        @foreach (var fila in Model)
+        {
+            <tr id="fila_@fila.Id">
+                <td>@fila.Id</td>
+                <td>@fila.Nombre</td>
+                <td>@fila.Telefono</td>
+                <td>@fila.Fecha_nac.ToString("dd/MM/yyyy")</td>
+                <td>@fila.Direccion</td>
+                <td style="text-align:right;"><a id="@fila.Id" class="btn btn-primary btn_edit" href="#"><span class="glyphicon glyphicon-edit" title="Editar"></span></a></td>
+                <td style="text-align:right;"><a id="@fila.Id" class="btn btn-danger btn_elim" title="Eliminar"><span class="glyphicon glyphicon-trash" title="Editar"></span></a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<!-- Modal Eliminar -->
+<div class="modal fade" id="modals" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Confirme la eliminación</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modal_body">
+                ¿Está seguro que desea eliminar el registro Nº <span id="id_prod"></span>?
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary btn-confirm-elim-alum"><span class="glyphicon glyphicon-trash"></span>&nbsp;Eliminar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="ventana_modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header" id="">
+                <span id="ventana_modal_title">Notificación</span><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            
+            <div class="modal-body" id="ventana_modal_body">
+               
+
+            </div>
+            <br />
+            <!--
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary btn_confirm_elim_alum"><span class="glyphicon glyphicon-save"></span>&nbsp;Guardar</button>
+            </div>
+                -->
+        </div>
+    </div>
+</div>
+
+
+@Scripts.Render("~/bundles/jquery")
+<script>
+    // VER MODAL "NUEVO"
+    $(document).ready(function () {
+        $("#btn_nuevo").click(function () {
+            $("#ventana_modal_body").load("/Alumnos/Nuevo/", function () {
+                $("#ventana_modal").modal("show");
+                $("#ventana_modal_title").text("Nuevo alumno");
+            });
+        });
+
+        // modal al editar (mostrar)
+        $('#tbl_alumnos').on('click', '.btn_edit', function () {
+            $("#ventana_modal_body").load("/Alumnos/Editar/" + this.id, function () {
+                $("#ventana_modal_title").text("Modificación de datos del alumno");
+                $("#ventana_modal").modal("show");
+            });
+        });
+    });
+    //FIN VER MODAL NUEVO REGISTRO
+    $('#tbl_alumnos').on('click', '.btn_elim', function (id = this.id) {
+    //$(".btn_elim").on("click", function (id = this.id) {
+        id = this.id;
+        $("#id_prod").text(id);
+        $('#modals').modal("show", id = this.id);
+    });
+    $(".btn-confirm-elim-alum").on("click", function () {
+        id = $("#id_prod").text();
+        if (id && id != '' && id != null && id != undefined)
+            window.location = "/Alumnos/Eliminar/" + id;
+        else {
+            alert("No se recibió el id a eliminar");
+        }
+    });
+</script>
+

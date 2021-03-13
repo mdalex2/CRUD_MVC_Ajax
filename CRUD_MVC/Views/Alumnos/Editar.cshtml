@@ -1,0 +1,70 @@
+﻿@model  CRUD_MVC.Models.ViewModels.AlumnosViewModel
+@{
+    ViewBag.Title = "Modificar Alumno";
+}
+<fieldset>
+    <legend>Datos personales</legend>
+    @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "frm_editar" }))
+    {
+    <div class="col-md-12">
+        @Html.HiddenFor(campo => campo.Id) <!-- para saber que código se va editar -->
+
+        @Html.LabelFor(campo => campo.Nombre)
+        @Html.TextBoxFor(campo => campo.Nombre, null, new { @class = "form-control" })
+        @Html.ValidationMessageFor(campo => campo.Nombre, null, new { @class = "invalid-feedback" })
+
+        @Html.LabelFor(campo => campo.Direccion)
+        @Html.TextBoxFor(campo => campo.Direccion, null, new { @class = "form-control" })
+        @Html.ValidationMessageFor(campo => campo.Direccion, null, new { @class = "invalid-feedback" })
+
+        @Html.LabelFor(campo => campo.Telefono)
+        @Html.TextBoxFor(campo => campo.Telefono, null, new { @class = "form-control" })
+        @Html.ValidationMessageFor(campo => campo.Telefono, null, new { @class = "invalid-feedback" })
+
+        @Html.LabelFor(campo => campo.Fecha_nac)
+        <br />@Html.EditorFor(campo => campo.Fecha_nac,null, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(campo => campo.Fecha_nac, null, new { @class = "invalid-feedback" })
+        <div class="clear" style="margin-bottom: 30px;"></div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <input type="submit" value="Guardar" id="btn_editar" class="btn btn-primary" />
+        </div>
+       
+    </div>
+    }
+</fieldset>
+<script>
+	$(function () {
+		$("#frm_editar").submit(function (e) {
+			e.preventDefault();
+			data = $('#frm_editar').serializeArray();
+			$.ajax({
+				url: "@Url.Action("Editar", "Alumnos")", // Url
+				data: data,
+				type: "post"  // Verbo HTTP
+			})
+			// Se ejecuta si todo fue bien.
+				.done(function (result) {
+					console.log(result);
+					if (result.success) {
+						var options = { year: "numeric", month: "numeric", day: "numeric" };  
+						var fecha_nac = new Date(parseInt(result.alumno.Fecha_nac.substr(6))).toLocaleDateString(options); 
+						document.getElementById("fila_" + result.alumno.Id).innerHTML = "<td> " + result.alumno.Id + " </td><td> " + result.alumno.Nombre + "</td > <td>" + result.alumno.Telefono + "</td> <td>" + fecha_nac + "</td> <td>" + result.alumno.Direccion + "</td> <td style='text-align:right;'><a id='" + result.alumno.Id + "' class='btn btn-primary btn_edit' href='#'><span class='glyphicon glyphicon-edit' title='Editar'></span></a></td> <td style='text-align:right;'><a id='" + result.alumno.Id + "' class='btn btn-danger btn_elim' title='Eliminar'><span class='glyphicon glyphicon-trash' title='Editar'></span></a></td>";
+						$("#ventana_modal").modal("hide");
+					//location.href = '/Alumnos';
+				} else {
+					alert('No se pudo modificar el registro');
+				}
+			})
+			// Se ejecuta si se produjo un error.
+			.fail(function (xhr, status, error) {
+				alert('Se produjo un error verificar log para información técnica');
+				console.log(error);
+			})
+			// Hacer algo siempre, haya sido exitosa o no.
+			.always(function (x) {
+				console.log(x);
+			});
+		});
+	});
+</script>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="jmendozaModelStoreContainer" CdmEntityContainer="jmendozaEntities">
+    <EntitySetMapping Name="Alumnos">
+      <EntityTypeMapping TypeName="jmendozaModel.Alumnos">
+        <MappingFragment StoreEntitySet="Alumnos">
+          <ScalarProperty Name="Fecha_nac" ColumnName="Fecha_nac" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Materias">
+      <EntityTypeMapping TypeName="jmendozaModel.Materias">
+        <MappingFragment StoreEntitySet="Materias">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre_mat" ColumnName="Nombre_mat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notas_Alumnos">
+      <EntityTypeMapping TypeName="jmendozaModel.Notas_Alumnos">
+        <MappingFragment StoreEntitySet="Notas_Alumnos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Alumno" ColumnName="Alumno" />
+          <ScalarProperty Name="Materia" ColumnName="Materia" />
+          <ScalarProperty Name="Nota1" ColumnName="Nota1" />
+          <ScalarProperty Name="Nota2" ColumnName="Nota2" />
+          <ScalarProperty Name="Nota3" ColumnName="Nota3" />
+          <ScalarProperty Name="Promedio" ColumnName="Promedio" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="jmendozaModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,400 @@
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\CRUD_MVC.dll.config
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\CRUD_MVC.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\CRUD_MVC.pdb
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\csc.exe
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\csc.exe.config
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\csc.rsp
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\csi.exe
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\csi.exe.config
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\csi.rsp
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.Managed.Core.targets
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.AppContext.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Console.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.IO.Compression.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.IO.FileSystem.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.IO.Pipes.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Security.AccessControl.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Security.Claims.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Security.Principal.Windows.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.ValueTuple.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Xml.XmlDocument.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Xml.XPath.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\vbc.exe
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\vbc.exe.config
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\vbc.rsp
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\VBCSCompiler.exe
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\Antlr3.Runtime.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\EntityFramework.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\EntityFramework.SqlServer.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\Microsoft.Web.Infrastructure.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\Newtonsoft.Json.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.Helpers.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.Mvc.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.Optimization.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.Razor.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.WebPages.Deployment.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.WebPages.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.WebPages.Razor.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\WebGrease.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\EntityFramework.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\EntityFramework.SqlServer.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.Helpers.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.Mvc.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.Optimization.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.Razor.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.WebPages.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.WebPages.Deployment.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\System.Web.WebPages.Razor.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\Newtonsoft.Json.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\Antlr3.Runtime.pdb
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\obj\Debug\CRUD_MVC.csprojAssemblyReference.cache
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\obj\Debug\CRUD_MVC.csproj.CoreCompileInputs.cache
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\obj\Debug\CRUD_MVC.csproj.CopyComplete
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\obj\Debug\CRUD_MVC.dll
+c:\users\jmendoza.sistran\source\repos\CRUD_MVC\CRUD_MVC\obj\Debug\CRUD_MVC.pdb
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.dll.config
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.pdb
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.exe
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.exe.config
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.rsp
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.exe
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.exe.config
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.rsp
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.AppContext.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Console.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.exe
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.exe.config
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.rsp
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Antlr3.Runtime.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Newtonsoft.Json.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Helpers.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Mvc.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Optimization.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Razor.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\WebGrease.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Helpers.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Mvc.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Optimization.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Razor.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Newtonsoft.Json.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Antlr3.Runtime.pdb
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csprojAssemblyReference.cache
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csproj.CoreCompileInputs.cache
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csproj.CopyComplete
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.dll
+C:\Users\Jmendoza.SISTRAN\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.pdb
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.dll.config
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.pdb
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.exe
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.exe.config
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.rsp
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.exe
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.exe.config
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.rsp
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.AppContext.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Console.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.exe
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.exe.config
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.rsp
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Antlr3.Runtime.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Newtonsoft.Json.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Helpers.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Mvc.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Optimization.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Razor.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\WebGrease.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Helpers.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Mvc.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Optimization.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Razor.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Newtonsoft.Json.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Antlr3.Runtime.pdb
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csprojAssemblyReference.cache
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csproj.CoreCompileInputs.cache
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csproj.CopyComplete
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.dll
+C:\Users\jmendoza\Documents\Visual Studio 2017\Proyectos\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.pdb
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.dll.config
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.pdb
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.exe
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.exe.config
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.rsp
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.exe
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.exe.config
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.rsp
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.AppContext.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Console.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.exe
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.exe.config
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.rsp
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Antlr3.Runtime.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Newtonsoft.Json.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Helpers.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Mvc.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Optimization.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Razor.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\WebGrease.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Helpers.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Mvc.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Optimization.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Razor.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Newtonsoft.Json.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Antlr3.Runtime.pdb
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csproj.CoreCompileInputs.cache
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csproj.CopyComplete
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.dll
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.pdb
+C:\Users\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csprojAssemblyReference.cache
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.dll.config
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\CRUD_MVC.pdb
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.exe
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.exe.config
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csc.rsp
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.exe
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.exe.config
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\csi.rsp
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.AppContext.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Collections.Immutable.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Console.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Compression.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.FileSystem.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.IO.Pipes.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.AccessControl.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Claims.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.ValueTuple.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XPath.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.exe
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.exe.config
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\vbc.rsp
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\VBCSCompiler.exe
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\roslyn\VBCSCompiler.exe.config
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Antlr3.Runtime.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.SqlServer.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Newtonsoft.Json.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Helpers.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Mvc.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Optimization.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Razor.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Deployment.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Razor.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\WebGrease.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\EntityFramework.SqlServer.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Helpers.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Mvc.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Optimization.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.Razor.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Deployment.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\System.Web.WebPages.Razor.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Newtonsoft.Json.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Antlr3.Runtime.pdb
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csprojAssemblyReference.cache
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csproj.CoreCompileInputs.cache
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.csproj.CopyComplete
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.dll
+D:\Datos\Alexi\Documents\Visual Studio 2017\Projects\CRUD_MVC_Ajax\CRUD_MVC\obj\Debug\CRUD_MVC.pdb

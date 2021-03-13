@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="jmendozaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Alumnos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" />
+    <Property Name="Direccion" Type="nvarchar(max)" />
+    <Property Name="Telefono" Type="nvarchar(max)" />
+    <Property Name="Fecha_nac" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Materias">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_mat" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Notas_Alumnos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Alumno" Type="nvarchar(max)" />
+    <Property Name="Materia" Type="nvarchar(max)" />
+    <Property Name="Nota1" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Nota2" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Nota3" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Promedio" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="jmendozaModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Alumnos" EntityType="Self.Alumnos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Materias" EntityType="Self.Materias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notas_Alumnos" EntityType="Self.Notas_Alumnos" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

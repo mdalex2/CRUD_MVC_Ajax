@@ -1,0 +1,153 @@
+﻿@model List<CRUD_MVC.Models.ViewModels.ListNotasViewModel>
+@{
+	ViewBag.Title = "Notas Alumnos";
+}
+
+<h2>Notas Alumnos</h2>
+<div class="row col-md-12" style="text-align:right;">
+	<a id="btn_nuevo" href="#" class="btn btn-primary"><span class="glyphicon glyphicon-file"></span>&nbsp;Nuevo</a>
+	<button type="button" value="Regresar" id="btn_regresar" class="btn btn-primary" onclick="javascript: history.go(-1);" title="Regresar"><span class="glyphicon glyphicon-arrow-left"></span></button>
+</div>
+<table id="tbl_notas" class="table table-responsive">
+	<thead>
+		<tr>
+			<th width="5%">Id</th>
+			<th width="25%">Alumno</th>
+			<th width="25%">Materia</th>
+			<th width="5%">Nota1</th>
+			<th width="5%">Nota2</th>
+			<th width="5%">Nota3</th>
+			<th width="5%">Promedio</th>
+			<th width="10%">Estado</th>
+			<th width="5%" colspan="2">Opciones</th>
+		</tr>
+	</thead>
+
+	<tbody id="tbl_body">
+		@foreach (var fila in Model)
+		{
+			<tr id="fila_@fila.Id">
+				<td>@fila.Id</td>
+				<td>@fila.Alumno</td>
+				<td>@fila.Materia</td>
+				<td>@fila.Nota1</td>
+				<td>@fila.Nota2</td>
+				<td>@fila.Nota3</td>
+				<td>@fila.Promedio</td>
+				<td>@fila.Estado</td>
+				<td style="text-align:right;"><a id="@fila.Id" class="btn btn-primary btn_edit" href="#"><span class="glyphicon glyphicon-edit" title="Editar"></span></a></td>
+				<td style="text-align:right;"><a id="@fila.Id" class="btn btn-danger btn_elim" title="Eliminar"><span class="glyphicon glyphicon-trash" title="Eliminar"></span></a></td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<!-- Modal Eliminar -->
+<div class="modal fade" id="modals" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLongTitle">Confirme la eliminación</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body" id="modal_body">
+				¿Está seguro que desea eliminar el registro Nº <span id="id_prod"></span>?
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				<button type="button" class="btn btn-primary btn-confirm-elim-alum"><span class="glyphicon glyphicon-trash"></span>&nbsp;Eliminar</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Ventana modal General (cargar cualquier contenido) -->
+<div id="ventana_modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header" id="">
+				<span id="ventana_modal_title">Notificación</span><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+
+			<div class="modal-body" id="ventana_modal_body">
+
+
+			</div>
+			<br />
+			<!--
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				<button type="button" class="btn btn-primary btn_confirm_elim_alum"><span class="glyphicon glyphicon-save"></span>&nbsp;Guardar</button>
+			</div>
+				-->
+		</div>
+	</div>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+<script>
+	// VER MODAL "NUEVO"
+	$(document).ready(function () {
+		$("#btn_nuevo").click(function () {
+			$("#ventana_modal_body").load("/Notas/Nuevo/", function () {
+				$("#ventana_modal").modal("show");
+				$("#ventana_modal_title").text("Registro de Notas");
+			});
+		});
+
+		// modal al editar (mostrar)
+		$('#tbl_notas').on('click', '.btn_edit', function () {
+			$("#ventana_modal_body").load("/Notas/Editar/" + this.id, function () {
+				$("#ventana_modal_title").text("Modificación de registros");
+				$("#ventana_modal").modal("show");
+			});
+		});
+	});
+	//FIN VER MODAL NUEVO REGISTRO
+	$('#tbl_notas').on('click', '.btn_elim', function (id = this.id) {
+		//$(".btn_elim").on("click", function (id = this.id) {
+		id = this.id;
+		$("#id_prod").text(id);
+		$('#modals').modal("show", id = this.id);
+	});
+	$(".btn-confirm-elim-alum").on("click", function () {
+		id = $("#id_prod").text();
+		if (id && id != '' && id != null && id != undefined)
+			window.location = "/Notas/Eliminar/" + id;
+		else {
+			alert("No se recibió el id a eliminar");
+		}
+	});
+	function formatMoney(amount, decimalCount = 2, decimal = ".", thousands = ",") {
+		//ésta funcion está en "index" notas
+		try {
+			decimalCount = Math.abs(decimalCount);
+			decimalCount = isNaN(decimalCount) ? 2 : decimalCount;
+
+			const negativeSign = amount < 0 ? "-" : "";
+
+			let i = parseInt(amount = Math.abs(Number(amount) || 0).toFixed(decimalCount)).toString();
+			let j = (i.length > 3) ? i.length % 3 : 0;
+
+			return negativeSign + (j ? i.substr(0, j) + thousands : '') + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousands) + (decimalCount ? decimal + Math.abs(amount - i).toFixed(decimalCount).slice(2) : "");
+		} catch (e) {
+			console.log(e);
+		}
+	};
+	function estado() {
+		n1 = parseFloat(document.getElementById("Nota1").value);
+		n2 = parseFloat(document.getElementById("Nota2").value);
+		n3 = parseFloat(document.getElementById("Nota3").value);
+		prom = (n1 + n2 + n3) / 3;
+		document.getElementById("txt_prom").value = formatMoney(prom,2,",",".");
+		if (prom >= 9.50) {
+			document.getElementById("Estado").value = "Aprobado";
+		} else {
+			document.getElementById("Estado").value = "Reprobado";
+		}
+	}
+</script>
+

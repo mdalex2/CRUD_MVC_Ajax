@@ -1,0 +1,104 @@
+﻿
+@model CRUD_MVC.Models.ViewModels.NotasViewModel
+@{
+    ViewBag.Title = "Registro de notas";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("Nuevo", "Notas", FormMethod.Post, new {id="frm_nuevo",name="frm_nuevo" } ))
+{
+    <div class="row">
+        <div class="col-md-12">
+            <!-- c = campo -->
+            <!--
+    @Html.LabelFor(c => c.Id)
+    @Html.TextBoxFor(c => c.Id, "", new { @class = "form-control" })
+    @Html.ValidationMessageFor(c => c.Id, null, new { @class = "invalid-feedback" })
+     -->
+            <div class="row">
+                <div class="col-md-6">
+                    @Html.LabelFor(c => c.Alumno)
+                    @Html.TextBoxFor(c => c.Alumno, "", new { @class = "form-control fullwidth" })
+                    @Html.ValidationMessageFor(c => c.Alumno, null, new { @class = "invalid-feedback" })
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-md-4">
+					@Html.LabelFor(c => c.Materia)
+					@Html.TextBoxFor(c => c.Materia, "", new { @class = "form-control" })
+					@Html.ValidationMessageFor(c => c.Materia, null, new { @class = "invalid-feedback" })
+				</div>
+				<div class="col-md-2">
+					@Html.LabelFor(c => c.Nota1)
+					@Html.TextBoxFor(c => c.Nota1, "", new { @class = "form-control", @onchange = "estado();" })
+					@Html.ValidationMessageFor(c => c.Nota1, null, new { @class = "invalid-feedback" })
+				</div>
+
+				<div class="col-md-2">
+					@Html.LabelFor(c => c.Nota2)
+					@Html.TextBoxFor(c => c.Nota2, "", new { @class = "form-control", @onchange = "estado();" })
+					@Html.ValidationMessageFor(c => c.Nota2, null, new { @class = "invalid-feedback" })
+				</div>
+
+				<div class="col-md-2">
+					@Html.LabelFor(c => c.Nota3)
+					@Html.TextBoxFor(c => c.Nota3, "", new { @class = "form-control", @onchange = "estado();" })
+					@Html.ValidationMessageFor(c => c.Nota3, null, new { @class = "invalid-feedback" })
+				</div>
+				<div class="col-md-2">
+					@Html.LabelFor(c => c.Promedio)
+					@Html.TextBoxFor(c => c.Promedio, "", new { @id = "txt_prom", @class = "form-control", @onchange = "estado();", @readonly = "readonly" })
+					@Html.ValidationMessageFor(c => c.Nota3, null, new { @class = "invalid-feedback" })
+				</div>
+				<div class="col-md-2">
+					@Html.LabelFor(c => c.Estado)
+					@Html.TextBoxFor(c => c.Estado, "", new { @class = "form-control" })
+					@Html.ValidationMessageFor(c => c.Estado, null, new { @class = "invalid-feedback" })
+				</div>
+			</div> 
+			<div class="clear" style="margin-bottom: 30px;"></div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				<input type="submit" value="Guardar" id="btn_guardar" class="btn btn-primary" />
+			</div>
+        </div>
+    </div>
+}
+<script>
+
+$(function () {
+	$("#frm_nuevo").submit(function (e) {
+		e.preventDefault();
+		data = $('#frm_nuevo').serializeArray();
+		$.ajax({
+			url: "@Url.Action("Nuevo", "Notas")", // Url
+			data: data,
+			type: "post"  // Verbo HTTP
+		})
+		// Se ejecuta si todo fue bien.
+			.done(function (result) {
+				//console.log(result);
+				if (result.success) {
+					//obtengo promedio en formato español "1.000,00"
+					let prom = formatMoney(parseFloat((result.alumno.Nota1 + result.alumno.Nota2 + result.alumno.Nota3) / 3), 2, ",", ".");
+					document.getElementById("tbl_body").innerHTML += "<tr id='fila_" + result.auto_ID + "'><td> " + result.auto_ID + " </td><td> " + result.alumno.Alumno + "</td > <td>" + result.alumno.Materia + "</td> <td>" + formatMoney(result.alumno.Nota1, 2, ",", ".") + "</td> <td>" + formatMoney(result.alumno.Nota2, 2, ",", ".") + "</td><td>" + formatMoney(result.alumno.Nota3, 2, ",", ".") + "</td><td>" + prom + "</td><td>" + result.alumno.Estado + "</td> <td style='text-align:right;'><a id='" + result.auto_ID + "' class='btn btn-primary btn_edit' href='#'><span class='glyphicon glyphicon-edit' title='Editar'></span></a></td> <td style='text-align:right;'><a id='" + result.auto_ID + "' class='btn btn-danger btn_elim' title='Eliminar'><span class='glyphicon glyphicon-trash' title='Editar'></span></a></td></tr>";
+					$("#ventana_modal").modal("hide");
+				//location.href = '/Alumnos';
+			} else {
+				alert('No se pudo guardra el registro');
+			}
+		})
+		// Se ejecuta si se produjo un error.
+		.fail(function (xhr, status, error) {
+			alert('Se produjo un error verificar log para información técnica');
+			console.log(error);
+		})
+		// Hacer algo siempre, haya sido exitosa o no.
+		.always(function (x) {
+			console.log(x);
+		});
+	});
+	});
+
+</script>
